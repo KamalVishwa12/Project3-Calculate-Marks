@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.background {
+    background-image: url(img/background.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    /* background-color: brown; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 4rem;
+}
+
+.box {
+    background-color: rgb(23, 21, 21);
+    height: 40rem;
+    width: 80%;
+    border: 0.1rem solid blue;
+    box-shadow: 0px 4px 4px rgba(0, 0 , 0, 0.9);
+    border-radius: 3.5rem;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h2{
+    font-size: 2.6rem;
+    font-weight: 550;
+    line-height: 80%;
+}
+
+.content h1{
+    font-size: 4.6rem;
+    font-weight: 700;
+    line-height: 95%;
+}
+
+.calculate-form{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 5rem;
+padding: 5rem;
+place-content: center;
+place-items: center;
+}
+
+input{
+    height: 4.4rem;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border:1px solid white;
+    color: white;
+    font-size: 1.6rem;
+    width: 100%;
+    max-width: 30rem;
+}
+
+input::placeholder{
+    color: white;
+    font-size: 1.6rem;
+}
+
+input:focus-visible{
+    outline: 1px solid blue;
+    border: 1px solid blue;
+}
+
+.primary-btn{
+    font-size: 2.4rem;
+    width: 16rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: rgb(25, 25, 148);
+    color: white;
+    border: none;
+}
+
+.primary-btn:hover{
+    opacity: 0.9;
+}
+
+.primary-btn:active{
+    opacity: 1;
+    background-color: rgb(21, 119, 83);
+}
+
+.result{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media (max-width:1400px){
+    
+}
